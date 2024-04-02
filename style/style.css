@@ -1,0 +1,163 @@
+body {
+  font-family: 'roboto';
+}
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+.button-link {
+  background: #17980e;
+  border-radius: 25px;
+  font-size: 1.2rem;
+  display: inline-flex;
+  padding: 1rem 1.5rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  color: #fff;
+}
+.button-link .icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 1rem;
+}
+.button-link .icon svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  fill: #fff;
+}
+.mini-title {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.topic {
+  display: flex;
+  padding-top: 2rem;
+}
+.topic .text {
+  width: calc(70% - 2rem);
+  margin: 0 0 0 2rem;
+}
+.topic .text:nth-child(odd) {
+  width: calc(70% - 2rem);
+  margin: 0 2rem 0 0;
+}
+
+.topic .imagem  {
+  width: 30%;
+}
+.topic .imagem img {
+  border-radius: 15px;
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 0 auto;
+  box-shadow: -1px 0px 9px 0px rgba(0, 0, 0, 0.75);
+}
+
+.topic .text{
+  font-size: 1.2rem;
+  line-height: 1.3rem;
+}
+.topic .text .title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.banner {
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.banner::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+  opacity: 0.8;
+}
+.banner::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(../images/bannerImagem.jpg);
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+.banner .title-space {
+  text-align: center;
+  z-index: 1;
+  color: #fff;
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.apresentation .text .title {
+  padding-top: 2rem;
+}
+.apresentation .text p {
+  margin-top: 1rem;
+  width: 100%;
+  text-align: justify;
+
+}
+
+
+.prices .list {
+  margin-top: 1rem;
+}
+.prices .list li {
+  margin-top: 0.5rem;
+
+}
+.prices .imagem img {
+  position: sticky;
+  top: 15px;
+}
+.prices .list .mini-title {
+  margin-top: 2rem;
+  display: block;
+}
+.prices .list .text-list {
+  margin-top: 1rem;
+  display: block;
+}
+
+.footer {
+  width: 100%;
+  padding: 1rem 0;
+  background: #17980e;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.footer a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+.footer a .icon{
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+.footer a .icon svg {
+  width: 100%;
+  height: 100%;
+  fill: #fff;
+}
