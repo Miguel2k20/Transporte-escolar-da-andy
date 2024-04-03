@@ -1,0 +1,76 @@
+@media (max-width: 1024px) {
+    .topic .text {
+        width: calc(60% - 2rem);
+    }
+    .topic .text:nth-child(odd) {
+        width: calc(60% - 2rem);
+    }
+    .topic .imagem  {
+        width: 40%;
+    }
+    .banner .title-space {
+        font-size: 4rem;
+    }
+}
+@media (max-width: 960px) {
+    .banner .title-space {
+        font-size: 2rem;
+    }
+    .topic { 
+        flex-wrap: wrap;
+    }
+    .topic .text {
+        order: 1;
+        width: 100%!important;
+        margin: 0!important;
+        text-align: center;
+    }
+    .apresentation .text p {
+        text-align: center;
+    }
+    .topic .imagem {
+        order: 2;
+        width: 100%;
+    } 
+    .apresentation .text .title {
+        padding-top: 0;
+    }
+    .topic .imagem img {
+        margin-top: 2rem;
+        max-width: 250px;
+    }
+    .topic .text .title {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 600px) {
+    .banner .title-space {
+        font-size: 1.5rem;
+    }
+    .button-link {
+        font-size: 1rem;
+    }
+    .container {
+        padding: 0 10px;
+        width: cal(100% - 20px);
+    }
+    .topic .text {
+        font-size: 1rem;
+        line-height: 1.2rem;
+    }
+    .banner {
+        height: 97vh;
+    }
+    .topic .imagem img {
+        max-width: 150px;
+    }
+    .prices .list .mini-title {
+        margin-top: 1rem;
+    }
+    .topic {
+        padding-top: 1rem;
+    }
+    .topic .text .title {
+        font-size: 1.3rem;
+    }
+}

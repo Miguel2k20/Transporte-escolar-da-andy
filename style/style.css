@@ -2,7 +2,7 @@ body {
   font-family: 'roboto';
 }
 .container {
-  width: 100%;
+  width: cal(100% - 50px);
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 25px;
@@ -12,6 +12,7 @@ body {
   border-radius: 25px;
   font-size: 1.2rem;
   display: inline-flex;
+  align-items: center;
   padding: 1rem 1.5rem;
   margin-top: 1rem;
   text-decoration: none;
@@ -35,10 +36,12 @@ body {
 .topic {
   display: flex;
   padding-top: 2rem;
+  width: 100%;
 }
 .topic .text {
   width: calc(70% - 2rem);
   margin: 0 0 0 2rem;
+  text-align: justify;
 }
 .topic .text:nth-child(odd) {
   width: calc(70% - 2rem);
