@@ -59,7 +59,7 @@
         line-height: 1.2rem;
     }
     .banner {
-        height: 97vh;
+        height: 95vh;
     }
     .topic .imagem img {
         max-width: 150px;
@@ -68,7 +68,7 @@
         margin-top: 1rem;
     }
     .topic {
-        padding-top: 1rem;
+        padding-top: 1.5rem;
     }
     .topic .text .title {
         font-size: 1.3rem;
